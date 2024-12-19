@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNSTC - தமிழ்நாடு அரசுப் போக்குவரத்துக் கழகம்</title>
+    <link rel="icon" href="images/TNLogo.svg.png" >
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img id="loggo" src="images/Lo.png" alt="Tamilnadu State Transport Corporation" class="logo-img">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#routes">Routes</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn-primary">Login</button>
+        <button class="hamburger" aria-label="Toggle menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+    
+
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>தமிழ்நாடு அரசுப் போக்குவரத்துக் கழகம்</h1>
+                <p>Book your tickets seamlessly with our reliable and easy-to-use platform.</p>
+                <a href="#routes" class="btn-secondary">Explore Routes</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="search-section">
+        <div class="search-container">
+            <h2>Find Your Journey</h2>
+            <form class="search-form">
+                <select class="search-input" id="boarding-point" required>
+                    <option value="" disabled selected>Select Boarding Point</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Thanjavur">Thanjavur</option>
+                    <option value="Thiruchirappalli">Thiruchirappalli</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="KanyaKumari">Kanya Kumari</option>
+            </select>
+            <select class="search-input" id="reaching-point" required>
+                    <option value="" disabled selected>Select Reaching Point</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Thanjavur">Thanjavur</option>
+                    <option value="Thiruchirappalli">Thiruchirappalli</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="KanyaKumari">Kanya Kumari</option>
+                </select>
+                <input type="date" class="search-input" required>
+                <button type="submit" class="btn-primary">Find Bus</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <section id="routes" class="content-section">
+        <h2>Popular Routes</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="card">
+                    <img src="images/Maurai.jpg" alt="Route 1" class="card-img">
+                    <h3>Chennai to Madurai</h3>
+                    <p>Starting at ₹599</p>
+                    <button class="btn-secondary">Book Now</button>
+                </div>
+                <div class="card">
+                    <img src="images/Thanjavur1.jpg" alt="Route 2" class="card-img">
+                    <h3>Chennai to Thanjavur</h3>
+                    <p>Starting at ₹449</p>
+                    <button class="btn-secondary">Book Now</button>
+                </div>
+                <div class="card">
+                    <img src="images/Thiruchi.jpg" alt="Route 3" class="card-img">
+                    <h3>Chennai to Thiruchirappalli</h3>
+                    <p>Starting at ₹399</p>
+                    <button class="btn-secondary">Book Now</button>
+                </div>
+                <div class="card">
+                    <img src="images/salem.jpg" alt="Route 4" class="card-img">
+                    <h3>Chennai to Salem</h3>
+                    <p>Starting at ₹349</p>
+                    <button class="btn-secondary">Book Now</button>
+                </div>
+                <div class="card">
+                    <img src="images/Coimbatore.jpg" alt="Route 5" class="card-img">
+                    <h3>Chennai to Coimbatore</h3>
+                    <p>Starting at ₹699</p>
+                    <button class="btn-secondary">Book Now</button>
+                </div>
+                <div class="card">
+                    <img src="images/Thirunelveli.jpg" alt="Route 6" class="card-img">
+                    <h3>Chennai to Tirunelveli</h3>
+                    <p>Starting at ₹799</p>
+                    <button class="btn-secondary">Book Now</button>
+                </div>
+                <div class="card">
+                    <img src="images/kanya.jpg" alt="Route 2" class="card-img">
+                    <h3>Chennai to KanyaKumari</h3>
+                    <p>Starting at ₹899</p>
+                    <button class="btn-secondary">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="app-section">
+        <div class="app-container">
+            <h2>Get Our App</h2>
+            <p>Book your tickets, check schedules, and track your journey on the go!</p>
+            <div class="app-links">
+                <a href="#" class="app-link">
+                    <img src="images/AvailGS-but.png" alt="Google Play Store" class="app-store-badge">
+                </a>
+                <a href="#" class="app-link">
+                    <img src="images/AvailAS-but.png" alt="Apple App Store" class="app-store-badge">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>
+                Tamil Nadu State Transport Corporation (TNSTC) has been providing affordable and reliable bus services for decades, connecting cities, towns, and rural areas across Tamil Nadu. Our goal is to ensure safe, timely, and efficient travel for our customers.
+            </p>
+            <p>
+                We offer a variety of services, including economy and luxury options, to cater to different needs and budgets. Customer satisfaction and safety are our priorities.
+            </p>
+        </div>
+    </section>
+    
+    <section id="support" class="support-section">
+        <div class="support-container">
+            <h2>Customer Support</h2>
+            <p>Need help? Our support team is here for you 24/7!</p>
+            <div class="contact-methods">
+                <div class="contact-item">
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:support@tnstc.com">support@tnstc.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About TNSTC</h3>
+                <p>
+                    TNSTC is dedicated to providing affordable and efficient transportation across Tamil Nadu, ensuring customer satisfaction through safety, reliability, and service excellence.
+                </p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Information</h3>
+                <p>Email: <a href="mailto:support@tnstc.com">support@tnstc.com</a></p>
+                <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+                <p>Address: TNSTC Headquarters, Chennai, Tamil Nadu</p>
+            </div>
+        </div>
+        <div class="footer-note">
+            <p>&copy; 2024 TNSTC. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="new.js"></script>
+</body>
+</html>
